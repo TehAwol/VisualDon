@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+.smiley { fill: red }
+.smiley:hover { fill: green }
+
+    </style>
+  </head>
+  <body>
+
+    <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+        <g class="smiley">
+            <circle id="gauche" cx="100" cy="55" r="45" fill="" />
+            <circle id="droite" cx="250" cy="55" r="45" fill="" />
+            <path d="M 55 120 C 100 200 250 200 300 120 z" stroke="black"/>
+        </g>
+    
+    </svg>
+
+    <script>
+
+        const circleG = document.getElementById('gauche');
+        const circleD = document.getElementById('droite');
+
+        let circleGClicked = false;
+        let circleDClicked = false;
+
+        circleG.addEventListener('click', () => {
+            circleGClicked = !circleGClicked;
+            circleG.setAttribute('fill', circleGClicked ? 'blue' : 'black');
+        });
+        
+        circleD.addEventListener('click', () => {
+            circleDClicked = !circleDClicked;
+            circleD.setAttribute('fill', circleDClicked ? 'orange' : 'red');
+        });
+
+    </script>
+
+  </body>
+</html>
