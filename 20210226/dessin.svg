@@ -2,6 +2,6 @@
 
     <circle cx="100" cy="55" r="45" fill="black" />
     <circle cx="250" cy="55" r="45" fill="black" />
-    <path d="M 55 120 C 100 200 200 200 300 120" stroke="black"/>
+    <path d="M 55 120 C 100 200 250 200 300 120" stroke="black"/>
 
 </svg>
