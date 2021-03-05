@@ -4,7 +4,7 @@
 
 * L'intention de l'auteur est d'illustrer les régions des États-Unis qui ont votés pour Clinton durant l'élection 2016.
 * Le pourcentage de vote est traduit en hauteur au-dessus de la mer. 50% ~= 0m
-* Selon cette carte, toutes les régions pas présentent sur la carte auraient voté pour Trump. L'omission de ceci rend difficile de comprendre la magnitude des votes inverse
+* Selon cette carte, toutes les régions pas présentes sur la carte auraient voté pour Trump. L'omission de ceci rend difficile de comprendre la magnitude des votes inverse
 
 ## Pornhub year in review
 
