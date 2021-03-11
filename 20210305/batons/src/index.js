@@ -5,16 +5,18 @@ import {
   max,
 } from 'd3'
 
-const villes = require('../data.json');
+import altDATA from "./data";
 
-// const DATA = [
-//   { canton: 'Lausanne', power: 138905 },
-//   { canton: 'Yverdon-les-Bains', power: 30143 },
-//   { canton: 'Montreux', power: 26574 },
-//   { canton: 'Renens', power: 21036 },
-//   { canton: 'Nyon', power: 20533 },
-//   { canton: 'Vevey', power: 19827 },
-// ]
+console.log(altDATA);
+
+const DATA = [
+  { nom: 'Lausanne', population: 138905 },
+  { nom: 'Yverdon-les-Bains', population: 30143 },
+  { nom: 'Montreux', population: 26574 },
+  { nom: 'Renens', population: 21036 },
+  { nom: 'Nyon', population: 20533 },
+  { nom: 'Vevey', population: 19827 },
+]
 
 const WIDTH = 1000
 const HEIGHT = 500
@@ -28,7 +30,7 @@ const svg = select('body')
   .attr('viewBox', `0 0 ${WIDTH} ${HEIGHT}`)
 
 const yScale = scaleLinear()
-  .domain([0, max(DATA, d => d.power)])
+  .domain([0, max(DATA, d => d.population)])
   .range([HEIGHT - MARGIN_BOTTOM, 0])
 
 
@@ -41,15 +43,15 @@ g.selectAll('rect')
   .append('rect')
   .attr('x', (d, i) =>  i * BAR_WIDTH)
   .attr('width', BAR_WIDTH - MARGIN)
-  .attr('y', d => yScale(d.power))
-  .attr('height', d => HEIGHT - MARGIN_BOTTOM - yScale(d.power))
+  .attr('y', d => yScale(d.population))
+  .attr('height', d => HEIGHT - MARGIN_BOTTOM - yScale(d.population))
   .attr('fill', 'steelblue')
 
 g.selectAll('text')
   .data(DATA)
   .enter()
   .append('text')
-  .text(d => d.canton)
+  .text(d => d.nom)
   .attr('x', (d, i) =>  i * BAR_WIDTH + BAR_WIDTH / 2)
   .attr('y', HEIGHT - MARGIN_BOTTOM / 2)
   .attr('text-anchor', 'middle')

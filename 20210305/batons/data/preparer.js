@@ -31,5 +31,5 @@ holder.forEach((res) => {
   }
 })
 
-console.log(JSON.stringify(holder));
+console.log((JSON.stringify(holder)));
 
