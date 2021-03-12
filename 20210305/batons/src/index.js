@@ -5,7 +5,7 @@ import {
   max,
 } from 'd3'
 
-import altDATA from "./data";
+import altDATA from "./data.json";
 
 console.log(altDATA);
 

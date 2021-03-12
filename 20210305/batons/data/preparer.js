@@ -1,4 +1,5 @@
 const { sort } = require('d3-array');
+const R = require('ramda');
 const data = require('./villes.json');
 
 const resultat = data
@@ -8,6 +9,8 @@ let holder = [];
 let i = 0;
 
 resultat.sort();
+
+const nameSort = R.sortWith(R.ascend(R.prop("canton")));
 
 resultat.forEach((res) => {
   if (holder.length == 0) {
@@ -20,6 +23,8 @@ resultat.forEach((res) => {
     holder.push(res);
   }
 });
+
+nameSort(resultat);
 
 i = 0;
 
