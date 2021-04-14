@@ -30,7 +30,7 @@ module.exports = {
                 helperDirs: path.resolve('./src/templates/helpers')
             }
         }]
-      }
+      },
     ]
   },
   resolve: {
