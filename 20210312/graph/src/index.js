@@ -63,22 +63,15 @@ const line = svg.append('path')
     .attr('fill', 'none')
     .attr('stroke', 'red')
 
-const legend = svg.selectAll('text')
-    .data(DATA)
-    .enter()
-    .append('text')
-    .attr('x', (d, i) => width / i) // DEBUG LINE
-    .attr('y', height - margin.bottom + 50)
-    .attr('text-anchor', 'middle')
-    .text(function(d) { return d.date.getFullYear()})
-    .style('font-family', 'arial')
-    .style('font-size', '10')
-
 const axisY = d3.axisLeft().scale(scaleY);
 
 const axisX = d3.axisBottom().scale(scaleX);
 
 svg.append('g')
-    .attr('transform', `translate(${-margin.top})`) // Move margin along x axis
+    .attr('transform', `translate())`) // Move margin along x axis
     .call(axisY)
+
+svg.append('g')
+    .attr('transform', `translate(0 ${height})`)
+    .call(axisX)
 
