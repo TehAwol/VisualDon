@@ -56,7 +56,7 @@ const scaleY = d3.scaleLinear()
 const linePathCreator = d3.line()
     .x(d => scaleX(d.date))
     .y(d => scaleY(d.value))
-    .curve(d3.curveBasis)
+    .curve(d3.curveStep)
 
 const line = svg.append('path')
     .attr('d', linePathCreator(DATA))
@@ -68,10 +68,10 @@ const axisY = d3.axisLeft().scale(scaleY);
 const axisX = d3.axisBottom().scale(scaleX);
 
 svg.append('g')
-    .attr('transform', `translate())`) // Move margin along x axis
+    .attr('transform', `translate())`) // Move legend along x axis translate(x y)
     .call(axisY)
 
 svg.append('g')
-    .attr('transform', `translate(0 ${height})`)
+    .attr('transform', `translate(0 ${height})`) // Move legend along y axis
     .call(axisX)
 
