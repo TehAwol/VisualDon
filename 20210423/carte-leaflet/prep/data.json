@@ -1,0 +1,154 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-ide",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2021-04-23T15:20:53Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/275006782",
+          "alt_name": "Postomat",
+          "amenity": "atm",
+          "cash_in": "no",
+          "currency:CHF": "yes",
+          "currency:EUR": "yes",
+          "drive_through": "yes",
+          "operator": "Postfinance"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.622356,
+            46.7896198
+          ]
+        },
+        "id": "node/275006782"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/940235744",
+          "amenity": "atm",
+          "check_date": "2021-02-01",
+          "operator": "Postfinance"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.6362721,
+            46.7809511
+          ]
+        },
+        "id": "node/940235744"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/940245094",
+          "amenity": "atm",
+          "check_date": "2021-02-01",
+          "operator": "UBS",
+          "wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.6364489,
+            46.7807196
+          ]
+        },
+        "id": "node/940245094"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/960814168",
+          "alt_name": "Postomat",
+          "amenity": "atm",
+          "covered": "yes",
+          "currency:CHF": "yes",
+          "currency:EUR": "yes",
+          "drive_through": "no",
+          "fee": "no",
+          "name": "Postfinance",
+          "operator": "Postfinance",
+          "wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.64176,
+            46.780845
+          ]
+        },
+        "id": "node/960814168"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/3578326056",
+          "amenity": "atm",
+          "check_date": "2021-02-24",
+          "drive_through": "yes",
+          "operator": "BCV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.6471491,
+            46.7815839
+          ]
+        },
+        "id": "node/3578326056"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4836274812",
+          "amenity": "atm",
+          "name": "BCV",
+          "operator": "BCV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.6216469,
+            46.788271
+          ]
+        },
+        "id": "node/4836274812"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/4928805355",
+          "amenity": "atm"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.6387822,
+            46.7794886
+          ]
+        },
+        "id": "node/4928805355"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/5103452405",
+          "amenity": "atm",
+          "operator": "Raiffeisen"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.6410402,
+            46.7813698
+          ]
+        },
+        "id": "node/5103452405"
+      }
+    ]
+  }
