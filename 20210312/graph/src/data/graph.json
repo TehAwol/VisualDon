@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
+=======
+[
+>>>>>>> Stashed changes
     [
         {
             "indicator": {
@@ -9,6 +13,25 @@
                 "value": "China"
             },
             "countryiso3code": "CHN",
+<<<<<<< Updated upstream
+=======
+            "date": "2020",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+>>>>>>> Stashed changes
             "date": "2019",
             "value": 1397715000,
             "unit": "",
@@ -959,4 +982,9 @@
             "obs_status": "",
             "decimal": 0
         }
+<<<<<<< Updated upstream
     ]
+=======
+    ]
+]
+>>>>>>> Stashed changes

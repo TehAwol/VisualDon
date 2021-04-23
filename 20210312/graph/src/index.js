@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* Module imports */
 import * as d3 from 'd3';
 
@@ -75,3 +76,10 @@ svg.append('g')
     .attr('transform', `translate(0 ${height})`) // Move legend along y axis
     .call(axisX)
 
+=======
+import * as d3 from 'd3';
+
+import data from './data/graph.json'
+
+console.log(data)
+>>>>>>> Stashed changes
