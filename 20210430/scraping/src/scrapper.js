@@ -11,7 +11,7 @@ req.send(null);
 const $ = cheerio.load(req.responseText);
 $.html();
 
-console.log($('.caption h4.price').text())
-console.log($('.caption h4.title').text())
+let priceArray = ($('.caption h4.price').text());
+let titleArray = ($('.caption h4.title').text());
 
 
