@@ -1,0 +1,27 @@
+{
+  "name": "projet",
+  "version": "1.0.0",
+  "description": "Avec Martin Mertenat, nous allons travailler sur le dataset suivant : https://www.kaggle.com/rankirsh/esports-earnings. Nous cherchons également des données plus granulaires sur les gains dans l'esports.",
+  "main": "index.js",
+  "scripts": {
+    "preview": "live-server dist/",
+    "build": "webpack",
+    "watch": "webpack --mode=development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.5",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "mini-css-extract-plugin": "^1.6.0",
+    "ramda": "^0.27.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "d3": "^6.7.0",
+    "jquery": "^3.6.0"
+  }
+}
