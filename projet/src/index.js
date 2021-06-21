@@ -14,7 +14,6 @@ import {
   
   import d3color, { schemePastel1, schemeSet1,interpolateViridis } from 'd3-scale-chromatic';
   
-  import slider2 from "d3-simple-slider"
   import DATA from "./data/JeuxParAnne.json"
   import DATA2 from "./data/TotParAnne.json"
   
@@ -263,61 +262,62 @@ $('#btn-earnings-avg').on('click', () => {
    output.innerHTML = this.value;
    
  }
+
  
- 
+
  // event slider gestion move
  slider.addEventListener("input", e => {
-   
-  
-   const a = e.target.value;
-   const donnee = DATA[a];
- 
- 
- 
-   uniquenom = getUnique(nom);
-   // texte eplicatif pour anne X
-   if (a ===  "1998")
-   {
-       textEplicatif.textContent = "Prémices de l’eSport moderne avec les jeux de tires à la première personne « FPS » comme Quake et création de la Cyber athlète Professional League « CPL » une association pionnière dans l’organisation de tournois de jeux vidéos et plus particulièrement sur les FPS comme Quake et Cunter Strike";
-   }else if (a ===  "1999")
-   {
-     textEplicatif.textContent = "Sortie de Brood War, l’extension du jeu de stratégie en temps réel (RTS) de star Craft";
-   } else if (a ===  "2000")
-   {
-     textEplicatif.textContent = "Sortie de célèbre FPS Counter Strike par l’éditeur valve qui est le jeu qui vas provoquer l’émergence de l’eSport dans le monde car il regroupe toutes les caractéristiques d’un sport traditionnel tel que le travail d’équiper la coopération, les réflexes mais surtout l’égalité des chances car il demande peux de ressources matérielles et possède un principe de jeux simple et prenant mais difficile à maitriser. "
-     "Il est encore aujourd’hui le jeu multijoueur en ligne de référence ";
-   } else if (a === "2001") 
-   {
-     textEplicatif.textContent = "Domination des FPS mais surtout de Cunter-Strike dans les différents tournois. Sortie ";
-   }else if (a === "2005") 
-   {
-     textEplicatif.textContent = "Apparition du jeux Painkiller, un FPS avec un gameplay similaire à son grand frère Quake et il fera son unique apparition dans ce classement du au choix de ce dernier par la CPL avec un tournois international dont le cahsprizes était de 510,000.00à$";
-   }else{
-     textEplicatif.textContent = "";
-   }
-   
- 
-   yScale.domain([0, max(donnee, d => d.Earnings)])
- 
-   rect.data(donnee)
-   .transition()
-   .attr('y', d => yScale(d.Earnings))
-   .attr('height', d => HEIGHT - MARGIN_BOTTOM - yScale(d.Earnings))
-   .attr("fill", function(d){return myColor(d.Name) })
- 
-   text.data(donnee)
-   .text(d => d.Name)
- 
- 
-   axis
-     .transition()
-     .call(axisY)
- 
-  
+   let year = e.target.value;  
+    getSliderYear(year);
  });
  
+ const getSliderYear = (year) => {
+  let a = year; 
+  let donnee = DATA[year];
+
+
+
+  uniquenom = getUnique(nom);
+  // texte eplicatif pour anne X
+  if (a ===  "1998")
+  {
+      textEplicatif.textContent = "Prémices de l’eSport moderne avec les jeux de tires à la première personne « FPS » comme Quake et création de la Cyber athlète Professional League « CPL » une association pionnière dans l’organisation de tournois de jeux vidéos et plus particulièrement sur les FPS comme Quake et Cunter Strike";
+  }else if (a ===  "1999")
+  {
+    textEplicatif.textContent = "Sortie de Brood War, l’extension du jeu de stratégie en temps réel (RTS) de star Craft";
+  } else if (a ===  "2000")
+  {
+    textEplicatif.textContent = "Sortie de célèbre FPS Counter Strike par l’éditeur valve qui est le jeu qui vas provoquer l’émergence de l’eSport dans le monde car il regroupe toutes les caractéristiques d’un sport traditionnel tel que le travail d’équiper la coopération, les réflexes mais surtout l’égalité des chances car il demande peux de ressources matérielles et possède un principe de jeux simple et prenant mais difficile à maitriser. "
+    "Il est encore aujourd’hui le jeu multijoueur en ligne de référence ";
+  } else if (a === "2001") 
+  {
+    textEplicatif.textContent = "Domination des FPS mais surtout de Cunter-Strike dans les différents tournois. Sortie ";
+  }else if (a === "2005") 
+  {
+    textEplicatif.textContent = "Apparition du jeux Painkiller, un FPS avec un gameplay similaire à son grand frère Quake et il fera son unique apparition dans ce classement du au choix de ce dernier par la CPL avec un tournois international dont le cahsprizes était de 510,000.00à$";
+  }else{
+    textEplicatif.textContent = "";
+  }
+  
+
+  yScale.domain([0, max(donnee, d => d.Earnings)])
+
+  rect.data(donnee)
+  .transition()
+  .attr('y', d => yScale(d.Earnings))
+  .attr('height', d => HEIGHT - MARGIN_BOTTOM - yScale(d.Earnings))
+  .attr("fill", function(d){return myColor(d.Name) })
+
+  text.data(donnee)
+  .text(d => d.Name)
+
+
+  axis
+    .transition()
+    .call(axisY)
+ } 
  
- 
+ getSliderYear("1998");
  
  ////-------------------------------------------- second graph ---------------------
  

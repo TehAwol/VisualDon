@@ -1,2 +1,3 @@
 node_modules
 prep
+dist/bundle.js

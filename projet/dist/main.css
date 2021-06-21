@@ -3,6 +3,7 @@
   height: 480px;
 }
 
+
 .title-container {
   margin-bottom: 1rem;
 }
@@ -13,7 +14,7 @@
 
 .slide-container {
   width: 100%;
-  height: fit-content;
+  height: 16rem;
 }
 
 .info {
@@ -41,7 +42,7 @@
   width: 40px;
   height: 40px;
   border: 0;
-  background: url('joystick.svg');
+  background: url('slider-button.svg');
   cursor: pointer;
 }
 
@@ -57,3 +58,4 @@ div.tooltip {
   border-radius: 8px;
   pointer-events: none;
 }
+

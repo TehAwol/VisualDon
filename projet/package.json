@@ -24,7 +24,6 @@
     "d3": "^6.7.0",
     "d3-scale-chromatic": "0.0.1",
     "d3-simple-slider": "^1.10.4",
-    "jQuery": "^1.7.4",
     "jquery": "^3.6.0"
   }
 }
