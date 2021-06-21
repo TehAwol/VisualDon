@@ -291,7 +291,7 @@ $('#btn-earnings-avg').on('click', () => {
      textEplicatif.textContent = "Domination des FPS mais surtout de Cunter-Strike dans les différents tournois. Sortie ";
    }else if (a === "2005") 
    {
-     textEplicatif.textContent = "Apparition du jeux Painkiller un FPS avec un gameplay similaire à son grand frère Quake et il fera son unique apparition dans ce classement du au choix de ce dernier par la CPL avec un tournois international dont le cahsprizes était de 510,000.00à$";
+     textEplicatif.textContent = "Apparition du jeux Painkiller, un FPS avec un gameplay similaire à son grand frère Quake et il fera son unique apparition dans ce classement du au choix de ce dernier par la CPL avec un tournois international dont le cahsprizes était de 510,000.00à$";
    }else{
      textEplicatif.textContent = "";
    }
