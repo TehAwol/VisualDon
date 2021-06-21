@@ -185,7 +185,8 @@ $('#btn-earnings-avg').on('click', () => {
  uniquenom = getUnique(nom);
  
  var myColor = scaleOrdinal().domain(uniquenom)
- .range(schemePastel1)
+ .range(["#00876c","#42977f" ,"#67a793", "#88b8a8","#a8c8bd", "#c8d8d2","#e8e8e8","#eacdcd","#eab3b3","#e79899","#e37c80","#dc5f68","#d43d51"])
+
    
  
  const svg = select("#chart")
