@@ -14,22 +14,29 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./main.css">
-
-  <style>
-    #map {
-      width: 960px;
-      height: 480px;
-    }
-  </style>
   <title>Dataviz Esports</title>
 </head>
 
 <body>
   <div class="container">
 
-    <div class="row border">
+    <div class="row border title-container">
       <div class="col">
         <h1 id="title" class="d-flex justify-content-center">L'évolution de l'industrie des esports</h1>
+      </div>
+    </div>
+
+    <div class="martin-chart">
+      <div class="row chart-container">
+        <div id="chart"></div>
+      </div>
+  
+      <div class="row info-container">
+        <div class="slide-container">
+          <input type="range" min="1998" max="2021" value="1998" class="slider" id="myRange">
+          <p>Anne: <span id="demo"></span></p>
+          <p><span id="textExplicatif"> </span>
+        </div>      
       </div>
     </div>
 
