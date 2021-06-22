@@ -256,6 +256,7 @@ $('#btn-earnings-avg').on('click', () => {
  var slider = document.getElementById("myRange");
  var output = document.getElementById("demo");
  var textEplicatif = document.getElementById("textExplicatif")
+ var textEplicatif2 = document.getElementById("textExplicatif2")
  
  output.innerHTML = slider.value;
  
@@ -282,24 +283,70 @@ $('#btn-earnings-avg').on('click', () => {
   // texte eplicatif pour anne X
   if (a ===  "1998")
   {
-      textEplicatif.textContent = "Prémices de l’eSport moderne avec les jeux de tires à la première personne « FPS » comme Quake et création de la Cyber athlète Professional League « CPL » une association pionnière dans l’organisation de tournois de jeux vidéos et plus particulièrement sur les FPS comme Quake et Cunter Strike";
+      textEplicatif.textContent = "Prémices de l’eSport moderne avec les jeux de tire à la première personne « FPS » comme Quake et création de la Cyber athlète Professional League (CPL) une association pionnière dans l’organisation de tournois de jeux vidéo et plus particulièrement sur les FPS ";
   }else if (a ===  "1999")
   {
-    textEplicatif.textContent = "Sortie de Brood War, l’extension du jeu de stratégie en temps réel (RTS) de star Craft";
+    textEplicatif.textContent = "Sortie de Brood War, l’extension du jeu de stratégie en temps réel (RTS) de star Craft Et premier grand tournois coréen organisé avec l’approbation de l’éditeur du jeux blizzard.";
   } else if (a ===  "2000")
   {
     textEplicatif.textContent = "Sortie de célèbre FPS Counter Strike par l’éditeur valve qui est le jeu qui vas provoquer l’émergence de l’eSport dans le monde car il regroupe toutes les caractéristiques d’un sport traditionnel tel que le travail d’équiper la coopération, les réflexes mais surtout l’égalité des chances car il demande peux de ressources matérielles et possède un principe de jeux simple et prenant mais difficile à maitriser. "
-    "Il est encore aujourd’hui le jeu multijoueur en ligne de référence ";
+    "Il est encore aujourd’hui le jeu multijoueur en ligne de type FPS de référence ";
   } else if (a === "2001") 
   {
-    textEplicatif.textContent = "Domination des FPS mais surtout de Cunter-Strike dans les différents tournois. Sortie ";
+    textEplicatif.textContent = "Domination des FPS avec Cunter-Strike Quake ou encore Unreal mais aussi des jeux de stratégie de type RTS avec Starcraft et Age of Empire II ";
+  }else if (a === "2002") 
+  {
+    textEplicatif.textContent = "Sortie de Return to Castle Wolfenstein un FPS basé sur le moteur de jeux de Quake 3 et sur le jeu original Wolfenstein 3D";
+  }else if (a === "2003") 
+  {
+    textEplicatif.textContent = "Sortie de Warcraft III un RTS qui est le troisième volet de la série Warcrafr. L’action du jeu se déroule dans un univers fantasy peuplé de différentes factions comme les orcs, les elfes et autre créatures imaginaires.";
+    textEplicatif2.textContent ="Sortie du jeux Halo un FPS se déroulant dans un futur proche et mettant en conformation une race alien contre les humains. Le point fort du jeu est qu’il propose un scénario prenant et très poussé pour ce genre de jeu"
   }else if (a === "2005") 
   {
-    textEplicatif.textContent = "Apparition du jeux Painkiller, un FPS avec un gameplay similaire à son grand frère Quake et il fera son unique apparition dans ce classement du au choix de ce dernier par la CPL avec un tournois international dont le cahsprizes était de 510,000.00à$";
-  }else{
-    textEplicatif.textContent = "";
+    textEplicatif.textContent = "Apparition du jeux Painkiller un FPS avec un gameplay similaire à son grand frère Quake et il fera son unique apparition dans ce classement du au choix de ce dernier par la CPL avec la mise en place d’un tournois international.";
+  }else if (a === "2006") 
+  {
+    textEplicatif.textContent = "Plusieurs grands tournois se déroulent cette année sur Counter Strike tel que la CPL et les World e-Sports Games";
+  }else if (a === "2007") 
+  {
+    textEplicatif.textContent = "Pas de réel changement jusque dans les années 2010, on retrouve dans le top le même genre de jeux avec leur suite comme Counter Strike : source et Halo 2";
+  }else if (a === "2009") 
+  {
+    textEplicatif.textContent = "Unique apparition du célèbre et plus populaire jeu de rôle en ligne massivement multijoueur (MMORPG) World of Warcraft sortie en 2004 basé sur l’univers fantasy de Warcraft. En cause la BlizzCon 2009 Arena tournement un tournois par Blizzard l’éditeur du jeu";
+  }
+  else if (a === "2011") 
+  {
+    textEplicatif.insertAdjacentHTML('afterend','<p> Changement de style de jeux dans le paysage de l’eSport, dès les années 2010 les jeux de type Multiplayer online battle arena  <a href="https://www.lemonde.fr/pixels/article/2015/06/01/que-sont-les-moba-ces-jeux-video-competitifs-qui-captivent-des-dizaines-de-millions-de-joueurs_4645166_4408996.html">MOBA</a>  font leur apparition avec Dota et League of Legends tout deux inspirées de « Defense of the Ancients » un mode de jeux de Warcraft 3 </p>') ;
+  }
+  else if (a === "2012") 
+  {
+    textEplicatif.textContent = "Deuxième édition des Championnats du monde de League of Legends avec un total d’'un million de dollars pour le vainqueur. On remarque aussi que les top est composé de trois jeux de type MOBA avec l’arrivé de Heroes of Newerth";
+  }
+  else if (a === "2015") 
+  {
+    textEplicatif.textContent = "Sortie de SMITE un jeux surfant sur la mode des MOBA mais avec cette fois une vue à la première personne";
+  }
+  else if (a === "2016") 
+  {
+    textEplicatif.textContent = "L’éditeur blizzard sort lui aussi son jeu de type MOBA réunissant tout les héros de sa franchise comme Warcraft, Diablo ou encore StrarCraft";
+  }
+
+  else if (a === "2018") 
+  {
+    textEplicatif.textContent = "Première apparition d’un nouveau type de jeux le battle royal. Ce sont principalement des jeux de tirs ou les joueurs se battent dans une arène ou le but est de survire le plus longtemps et arrivé à être le dernier en vie à la fin de la partie. Parmi les plus connus on retrouve ici Fortnite et PUBG";
+  }
+
+  else if (a === "2020") 
+  {
+    textEplicatif.textContent = "Sortie de Arena of Valor un MOBA disponible sur mobile IOS et Android";
   }
   
+  
+  else
+  {
+    textEplicatif.textContent ="";
+    textEplicatif2.textContent="";
+  }
 
   yScale.domain([0, max(donnee, d => d.Earnings)])
 
