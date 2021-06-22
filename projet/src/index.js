@@ -313,16 +313,13 @@ $('#btn-earnings-avg').on('click', () => {
   }else if (a === "2009") 
   {
     textEplicatif.textContent = "Unique apparition du célèbre et plus populaire jeu de rôle en ligne massivement multijoueur (MMORPG) World of Warcraft sortie en 2004 basé sur l’univers fantasy de Warcraft. En cause la BlizzCon 2009 Arena tournement un tournois par Blizzard l’éditeur du jeu";
-  }
-  else if (a === "2011") 
+  } else if (a === "2011") 
   {
-    textEplicatif.insertAdjacentHTML('afterend','<p> Changement de style de jeux dans le paysage de l’eSport, dès les années 2010 les jeux de type Multiplayer online battle arena  <a href="https://www.lemonde.fr/pixels/article/2015/06/01/que-sont-les-moba-ces-jeux-video-competitifs-qui-captivent-des-dizaines-de-millions-de-joueurs_4645166_4408996.html">MOBA</a>  font leur apparition avec Dota et League of Legends tout deux inspirées de « Defense of the Ancients » un mode de jeux de Warcraft 3 </p>') ;
-  }
-  else if (a === "2012") 
+    textEplicatif.textContent= "Changement de style de jeux dans le paysage de l’eSport, dès les années 2010 les jeux de type Multiplayer online battle arena 'MOBA' font leur apparition avec Dota 2 et League of Legends tout deux inspirées de « Defense of the Ancients » un mode de jeux de Warcraft 3";
+  } else if (a === "2012") 
   {
     textEplicatif.textContent = "Deuxième édition des Championnats du monde de League of Legends avec un total d’'un million de dollars pour le vainqueur. On remarque aussi que les top est composé de trois jeux de type MOBA avec l’arrivé de Heroes of Newerth";
-  }
-  else if (a === "2015") 
+  } else if (a === "2015") 
   {
     textEplicatif.textContent = "Sortie de SMITE un jeux surfant sur la mode des MOBA mais avec cette fois une vue à la première personne";
   }
@@ -339,10 +336,7 @@ $('#btn-earnings-avg').on('click', () => {
   else if (a === "2020") 
   {
     textEplicatif.textContent = "Sortie de Arena of Valor un MOBA disponible sur mobile IOS et Android";
-  }
-  
-  
-  else
+  }else
   {
     textEplicatif.textContent ="";
     textEplicatif2.textContent="";
@@ -395,7 +389,7 @@ $('#btn-earnings-avg').on('click', () => {
  .attr('width', BAR_WIDTH2 - MARGIN)
  .attr('y', d => yScale2(d.Earnings))
  .attr('height', d => HEIGHT - MARGIN_BOTTOM - yScale2(d.Earnings))
- .attr('fill', function(d,i){return colors[i]})
+ .attr("fill", function(d){return myColor(d.Earnings) })
  
  
  const text2 = g2.selectAll('text')
