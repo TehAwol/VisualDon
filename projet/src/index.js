@@ -187,6 +187,9 @@ $('#btn-earnings-avg').on('click', () => {
  var myColor = scaleOrdinal().domain(uniquenom)
  .range(["#00876c","#42977f" ,"#67a793", "#88b8a8","#a8c8bd", "#c8d8d2","#e8e8e8","#eacdcd","#eab3b3","#e79899","#e37c80","#dc5f68","#d43d51"])
 
+ var colorRed = scaleLinear()
+ .domain([0,21])
+ .range(['white', 'red'])
    
  
  const svg = select("#chart")
@@ -199,6 +202,7 @@ $('#btn-earnings-avg').on('click', () => {
  const yScale = scaleLinear()
    .domain([0, max(donneStart, d => d.Earnings)])
    .range([HEIGHT - MARGIN_BOTTOM, 0])
+   
  
  
  
@@ -208,7 +212,6 @@ $('#btn-earnings-avg').on('click', () => {
    const rect = g.selectAll('rect')
    .data(donneStart)
    .enter()
-   
    .append('rect')
    .attr('x', (d, i) =>  i * BAR_WIDTH)
    .attr('width', BAR_WIDTH - MARGIN)
@@ -225,14 +228,14 @@ $('#btn-earnings-avg').on('click', () => {
    .text(d => d.Name)
    .attr('x', (d, i) =>  i * BAR_WIDTH + BAR_WIDTH / 2)
    .attr('y', HEIGHT - MARGIN_BOTTOM / 2)
-   .attr("font-size","10px")
+   .attr("font-size","15px")
  
    .attr('text-anchor', 'middle')
  
  const axisY = axisLeft().scale(yScale)
    .tickFormat(d => `${d / 1000}k`)
    .ticks(10)
- 
+
  
  
  
@@ -265,6 +268,53 @@ $('#btn-earnings-avg').on('click', () => {
    
  }
 
+ ////-------------------------------------------- second graph ---------------------
+ 
+ const BAR_WIDTH2 = (WIDTH - MARGIN_LEFT) / 24
+ 
+ const svg2 = select("#chart2")
+ .append('svg')
+ .attr('viewBox', `0 0 ${WIDTH} ${HEIGHT}`)
+ 
+ ///
+ 
+ 
+ const yScale2 = scaleLinear()
+ .domain([0, max(DATA2, d => d.Earnings)])
+ .range([HEIGHT - MARGIN_BOTTOM, 0])
+ 
+ 
+ const g2 = svg2.append('g')
+ .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
+ 
+ 
+ const rect2 = g2.selectAll('rect')
+ .data(DATA2)
+ .enter()
+ .append('rect')
+ .attr('x', (d, i) =>  i * BAR_WIDTH2)
+ .attr('width', BAR_WIDTH2 - MARGIN)
+ .attr('y', d => yScale2(d.Earnings))
+ .attr('height', d => HEIGHT - MARGIN_BOTTOM - yScale2(d.Earnings))
+ .attr('fill', '#69b3a2')
+ 
+ const text2 = g2.selectAll('text')
+ .data(DATA2)
+ .enter()
+ .append('text')
+ .text(d => d.Annee)
+ .attr('x', (d, i) =>  i * BAR_WIDTH2 + BAR_WIDTH2 / 2)
+ .attr('y', HEIGHT - MARGIN_BOTTOM / 2)
+ .attr("font-size","15px")
+ .attr('text-anchor', 'middle')
+ 
+ const axisY2 = axisLeft().scale(yScale2)
+ .tickFormat(d => `${d / 1000}k`)
+ .ticks(8)
+ 
+ const axis2 = svg2.append('g')
+ .attr('transform', `translate(${MARGIN_LEFT - 3})`)
+ .call(axisY2)
  
 
  // event slider gestion move
@@ -353,6 +403,10 @@ $('#btn-earnings-avg').on('click', () => {
   text.data(donnee)
   .text(d => d.Name)
 
+  rect2.data(DATA2)
+  .transition()
+  .attr("fill", function(d){if(d.Annee === a){return "#FF616D"}})
+
 
   axis
     .transition()
@@ -361,53 +415,4 @@ $('#btn-earnings-avg').on('click', () => {
  
  getSliderYear("1998");
  
- ////-------------------------------------------- second graph ---------------------
- 
- const BAR_WIDTH2 = (WIDTH - MARGIN_LEFT) / 24
- 
- const svg2 = select("#chart2")
- .append('svg')
- .attr('viewBox', `0 0 ${WIDTH} ${HEIGHT}`)
- 
- ///
- 
- 
- const yScale2 = scaleLinear()
- .domain([0, max(DATA2, d => d.Earnings)])
- .range([HEIGHT - MARGIN_BOTTOM, 0])
- 
- 
- const g2 = svg2.append('g')
- .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
- 
- 
- const rect2 = g2.selectAll('rect')
- .data(DATA2)
- .enter()
- .append('rect')
- .attr('x', (d, i) =>  i * BAR_WIDTH2)
- .attr('width', BAR_WIDTH2 - MARGIN)
- .attr('y', d => yScale2(d.Earnings))
- .attr('height', d => HEIGHT - MARGIN_BOTTOM - yScale2(d.Earnings))
- .attr("fill", function(d){return myColor(d.Earnings) })
- 
- 
- const text2 = g2.selectAll('text')
- .data(DATA2)
- .enter()
- .append('text')
- .text(d => d.Annee)
- .attr('x', (d, i) =>  i * BAR_WIDTH2 + BAR_WIDTH2 / 2)
- .attr('y', HEIGHT - MARGIN_BOTTOM / 2)
- .attr("font-size","10px")
- 
- .attr('text-anchor', 'middle')
- 
- const axisY2 = axisLeft().scale(yScale2)
- .tickFormat(d => `${d / 1000}k`)
- .ticks(5)
- 
- const axis2 = svg2.append('g')
- .attr('transform', `translate(${MARGIN_LEFT - 3})`)
- .call(axisY2)
  
