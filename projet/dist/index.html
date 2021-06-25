@@ -18,60 +18,67 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container wrapper">
 
-    <div class="row border title-container">
+    <div class="row title-container">
       <div class="col">
         <h1 id="title" class="d-flex justify-content-center">L'évolution de l'industrie des esports</h1>
       </div>
     </div>
-    <div class="row border martin-text text-body">
+    <div class="row martin-text text-body">
       <h4>L'évolution des gains esports par annee</h4>
-      <p>Comme le montre le graphique si dessous l’industrie du sport électronique connait une énorme expansion en termes de dollars de prix distribués dès les années 2010. En cause, la popularisation des jeux l’arrivé des jeux multijoueur conçu pour la compétition comme StarCraft2, DOTA2 et League of Legends mais aussi la généralisation du streaming et l’investissement de grande entreprise dans le domaine qui n’est plus considéré comme un marché de niche</p>
-      <p>On peut noter aussi qu’en 2009 et 2020 les prix ont baissé entre autres dû à la crise économique mondiale de 2008 et à la pandémie de COVID en 2020 / 2021</p>
+      <p>Comme le montre le graphique si dessous l’industrie du sport électronique connait une énorme expansion en
+        termes de dollars de prix distribués dès les années 2010. En cause, la popularisation des jeux l’arrivé des jeux
+        multijoueur conçu pour la compétition comme StarCraft2, DOTA2 et League of Legends mais aussi la généralisation
+        du streaming et l’investissement de grande entreprise dans le domaine qui n’est plus considéré comme un marché
+        de niche</p>
+      <p>On peut noter aussi qu’en 2009 et 2020 les prix ont baissé entre autres dû à la crise économique mondiale de
+        2008 et à la pandémie de COVID en 2020 / 2021</p>
     </div>
     <div class="martin-chart">
       <div class="row chart-container">
         <div id="chart2"></div>
       </div>
 
-    <div class="row border martin-text text-body">
-      <h4>Le top 5 des des gains pour chaque année</h4>
-      <p>Intéressons-nous maintenant aux différents jeux les plus populaires qui ont façonné l’histoire l’eSport. Pour ce faire cette visualisation présente le top 5 des jeux ayant proposés les plus grands prix lors de différent tournois. Cela va nous permettre de voir les différents jeux présents du paysage sportif et comment ils ont évolué au fil des année. Bon voyage !</p>
-    </div>
-
-    <div class="martin-chart">
-      <div class="row chart-container">
-        <div id="chart"></div>
+      <div class="row martin-text text-body">
+        <h4>Le top 5 des des gains pour chaque année</h4>
+        <p>Intéressons-nous maintenant aux différents jeux les plus populaires qui ont façonné l’histoire l’eSport. Pour
+          ce faire cette visualisation présente le top 5 des jeux ayant proposés les plus grands prix lors de différent
+          tournois. Cela va nous permettre de voir les différents jeux présents du paysage sportif et comment ils ont
+          évolué au fil des année. Bon voyage !</p>
       </div>
-  
-      <div class="row info-container">
-        <div class="slide-container">
-          <input type="range" min="1998" max="2021" value="1998" class="slider" id="myRange">
-          <p>Anne: <span id="demo"></span></p>
-          <p><span id="textExplicatif"> </span></p>
-          <p><span id="textExplicatif2"> </span></p>
-        </div>      
+
+      <div class="martin-chart">
+        <div class="row chart-container">
+          <div id="chart"></div>
+        </div>
+
+        <div class="row info-container">
+          <div class="slide-container">
+            <input type="range" min="1998" max="2021" value="1998" class="slider" id="myRange">
+            <p>Anne: <span id="demo"></span></p>
+            <p><span id="textExplicatif"> </span></p>
+            <p><span id="textExplicatif2"> </span></p>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="row border mikkel-text text-body">
-      <h4>La globalisation des esports</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam excepturi inventore, quisquam quo aperiam error harum, quidem voluptas similique dolor asperiores, animi libero. Quisquam quibusdam assumenda temporibus deleniti id aperiam?</p>
-    </div>
-    
-    <div class="row leaflet-container">
-      <div class="map" id="map"></div>
-    </div>
-    <div class="d-flex flex-row justify-content-center">
-      <button id="btn-earnings" class="button m-2">Earnings</button>
-      <button id="btn-earnings-avg" class="button m-2">Earnings per Capita</button>
-    </div>
+      <div class="row mikkel-text text-body">
+        <h4>La globalisation des esports</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam excepturi inventore, quisquam quo aperiam
+          error harum, quidem voluptas similique dolor asperiores, animi libero. Quisquam quibusdam assumenda temporibus
+          deleniti id aperiam?</p>
+        <div class="row leaflet-container">
+          <div class="map" id="map"></div>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-center">
+        <button id="btn-earnings" class="button m-2">Earnings</button>
+        <button id="btn-earnings-avg" class="button m-2">Earnings per Capita</button>
+      </div>
 
-
-
-  </div>
-  <script src="bundle.js"></script>
+    </div>
+    <script src="bundle.js"></script>
 </body>
 
 
