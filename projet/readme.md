@@ -33,5 +33,16 @@ Pour ce faire il a fallu regrouper pour les gains par année pour chaque jeux et
 etc......
 
 ```
+Edit: Afin d'afficher les différentes type de jeux videos nous avons du joindre un autre dataSet "GeneralEsportData" qui provient aussi de [« Esports Earnings 1998 – 2021 »](https://www.kaggle.com/rankirsh/esports-earnings) au dataste HistoricalEsportData le fichier json à cette forme là :
 
-Pour le graphe du total des gains par année il à simplement suffit de regrouper le total des gains pour tous les jeux par année.
+```
+ "1998": [
+          {
+               "Name": "Quake II",
+               "Earnings": 66200,
+               "Annee": "1998",
+               "genre": "First-Person Shooter"
+          },
+```
+
+Pour le graphe du total des gains par année, il à simplement suffit de regrouper le total des gains pour tous les jeux par année.
