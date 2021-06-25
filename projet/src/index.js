@@ -29,8 +29,8 @@ var info = L.control();
 
 L.tileLayer('', {
     // attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
-    minZoom: 0,
-    maxZoom: 18,
+    minZoom: 2,
+    maxZoom: 6,
 }).addTo(myMap);
 
 var countries = L.geoJson(countries, {
@@ -51,13 +51,13 @@ function getColorEarnings(e) {
 }
 
 function getColorEarningsPop(e) {
-    return e > 5 ? '#99000d' :
-        e > 4.5 ? '#cb181d' :
-        e > 3.5 ? '#ef3b2c' :
-        e > 2.5 ? '#fb6a4a' :
-        e > 1.5 ? '#fc9272' :
-        e > 0.5 ? '#fcbba1' :
-        e > 0.001 ? '#fee5d9' :
+    return e > 4.5 ? '#005824' :
+        e > 3 ? '#238b45' :
+        e > 3.5 ? '#41ae76' :
+        e > 2.5 ? '#66c2a4' :
+        e > 1.5 ? '#99d8c9' :
+        e > 0.5 ? '#ccece6' :
+        e > 0.001 ? '#edf8fb' :
         'white';
 };
 
@@ -296,7 +296,7 @@ $('#btn-earnings-avg').on('click', () => {
  .attr('width', BAR_WIDTH2 - MARGIN)
  .attr('y', d => yScale2(d.Earnings))
  .attr('height', d => HEIGHT - MARGIN_BOTTOM - yScale2(d.Earnings))
- .attr('fill', '#69b3a2')
+ .attr('color', '#ffffff')
  
  const text2 = g2.selectAll('text')
  .data(DATA2)
@@ -405,7 +405,7 @@ $('#btn-earnings-avg').on('click', () => {
 
   rect2.data(DATA2)
   .transition()
-  .attr("fill", function(d){if(d.Annee === a){return "#FF616D"}})
+  .attr("fill", function(d){if(d.Annee === a){return "#FF616D"} else {return '#C8D8D2'}})
 
 
   axis
