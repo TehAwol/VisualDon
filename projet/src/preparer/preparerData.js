@@ -1,5 +1,6 @@
 
 const data2 = require('./barrace.json');
+const data = require('./mixdata.json');
 const fs = require('fs');
 
 
@@ -17,10 +18,22 @@ const result = data2
     .map(d => ({ date: d.date, nom: d.jeu, totGain: d.totaldesGains}))
    .sort((a, b) => a.date > b.date ? -1 : 1);
 
+
+
+const result2 = data
+
+.map(d => ({nom: d.jeu, genre: d.genre}))
+
+
+
+
+
   let annee = [];
   let names = [];
   let earnings = [];
   let player =[];
+
+
 
   result.forEach((e) => {
        
@@ -28,9 +41,12 @@ const result = data2
    });
 
    result.forEach((e) => {
-     
-        if (!names.includes(e.nom)) names.push(e.nom);
-    });
+
+    if (!names.includes(e.nom)) names.push(e.nom);
+});
+
+
+
 
     // mise en place nom et date et total gain
 
@@ -48,13 +64,22 @@ const result = data2
           }
       })
   
-      earnings.push({ Name: n, Earnings: total, Annee: element, });
-  
+      earnings.push({ Name: n, Earnings: total, Annee: element});
         
       });
 
   });
 
+
+
+
+  // ajout du  genre en fonction de l'autre dataset
+earnings.forEach(function(d) {
+  var result = result2.filter(function(genre) {
+      return genre.nom === d.Name;
+  });
+  d.genre = (result[0] !== undefined) ? result[0].genre : null;
+});
 
   function recupAnne (Anne)
   {
@@ -63,9 +88,14 @@ const result = data2
   }
 
 
+
 const toutAnnee = Array.from(new Set(earnings.map(d => d.Annee))).sort();
+
+
+
 //iteration pour chaque annee
 const resultat = toutAnnee.reduce( (r,d) => ({...r,[d]:recupAnne(d)}),({}));
+
 
 
 
@@ -86,7 +116,7 @@ gainAnne.push({Earnings: total, Annee: element });
 
 
   //top 5 cashprize jeux par annee 
- fs.writeFileSync("JeuxParAnne",JSON.stringify(resultat,null,4), "utf-8")
+ fs.writeFileSync("JeuxParAnne",JSON.stringify(resultat,null,5), "utf-8")
 
  //tot par annee
  //const filterAnne= gainAnne.sort((a, b) => a.Anne > b.Anne ? 1 : -1);

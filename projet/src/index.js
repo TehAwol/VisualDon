@@ -9,7 +9,7 @@ import {
     scaleSequential,
     axisRight,
     axisBottom,
-    colo
+    pointer,
   } from 'd3'
   
   import d3color, { schemePastel1, schemeSet1,interpolateViridis } from 'd3-scale-chromatic';
@@ -315,8 +315,25 @@ $('#btn-earnings-avg').on('click', () => {
  const axis2 = svg2.append('g')
  .attr('transform', `translate(${MARGIN_LEFT - 3})`)
  .call(axisY2)
- 
 
+ const label = svg.append('text')
+  .attr('text-anchor', 'middle')
+  .style("font-size", "15px")
+  .attr('stroke', '#264653')
+ 
+  // gestion souris sur rect
+ const sourisMove = (e, d) => {
+  const [x, y] = pointer(e)
+  label
+    .attr('x', x)
+    .attr('y', y - 20)
+    .text("Catégorie : "
+    + d.genre)
+ }
+
+rect.on('mouseover', sourisMove)
+rect.on('mousemove', sourisMove)
+rect.on('mouseout', () => label.text(''))
  // event slider gestion move
  slider.addEventListener("input", e => {
    let year = e.target.value;  
@@ -399,6 +416,7 @@ $('#btn-earnings-avg').on('click', () => {
   .attr('y', d => yScale(d.Earnings))
   .attr('height', d => HEIGHT - MARGIN_BOTTOM - yScale(d.Earnings))
   .attr("fill", function(d){return myColor(d.Name) })
+  
 
   text.data(donnee)
   .text(d => d.Name)

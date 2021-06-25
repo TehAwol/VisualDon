@@ -1,0 +1,2082 @@
+[
+  {
+    "jeu": "Age of Empires",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Age of Empires II",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Age of Empires III",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Age of Empires Online",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Age of Mythology",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Among Us",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Auto Chess",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Brawl Stars",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Chess.com",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "chess24",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Clash of Clans",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Clash Royale",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Command & Conquer 3",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Company of Heroes 2",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "ComPet",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Dead By Daylight",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Dota Underlords",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Endgods",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Farming Simulator 19",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Grey Goo",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Heroes of Might and Magic III",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Identity V",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Internet Chess Club",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Iron Harvest",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Lichess",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Men of War: Assault Squad 2",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Multigaming",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "osu!",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Playchess.com",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Pok<U+00E9>mon VGC",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Prophecy",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Rise of Nations: Rise of Legends",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Sea of Thieves",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Star Wars: Squadrons",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "StarCraft II",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "StarCraft: Brood War",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Super Mario Party",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Supreme Commander",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Supreme Commander: Forged Alliance",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Teamfight Tactics",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "TEPPEN",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "UNO",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "WarCraft III",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "WarCraft III: Reforged",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Warhammer 40,000: Dawn of War",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Warhammer 40,000: Dawn of War II",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Warparty",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Windjammers",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "World in Conflict",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "World of Tanks",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "World of Tanks Blitz",
+    "genre": "Strategy"
+  },
+  {
+    "jeu": "Aliens versus Predator 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Battalion 1944",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Battlefield 1",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Battlefield 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Battlefield 2142",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Battlefield 3",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Battlefield 4",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Battlefield 5",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Battlefield Hardline",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Beat Aim",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Big Buck Hunter Arcade",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Black Squad",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Borderlands 3",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty 4: Modern Warfare",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Advanced Warfare",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Black Ops",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Black Ops 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Black Ops 4",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Black Ops Cold War",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Black Ops III",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Blackout",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Ghosts",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Infinite Warfare",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Mobile",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Modern Warfare",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Modern Warfare 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Modern Warfare 3",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: Warzone",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Call of Duty: World War II",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Counter-Strike",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Counter-Strike Online",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Counter-Strike: Condition Zero",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Counter-Strike: Global Offensive",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Counter-Strike: Source",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Critical Ops",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "CrossFire",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Crysis",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Day of Defeat",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Day of Defeat: Source",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Descent 3",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Diabotical",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Doom (2016)",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Doom 3",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Doom II: Hell on Earth",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "DOOMBRINGER",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Echo Arena",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Enemy Territory: Quake Wars",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Escape from Tarkov",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Evolve",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "F.E.A.R.",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Ghost Recon Advanced Warfighter",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Gundam Versus",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Guns of Boom",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Halo 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Halo 2 Anniversary",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Halo 3",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Halo 4",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Halo 5: Guardians",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Halo: Combat Evolved",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Halo: Infinite",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Halo: Reach",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Ironsight",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Islands of Nyne",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "MechWarrior Online",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Metal Gear Online",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Overwatch",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Painkiller",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Paladins",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Point Blank",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Quake 4",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Quake Champions",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Quake II",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Quake III Arena",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Quake Live",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "QuakeWorld",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Rage",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Rainbow Six Siege",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Rainbow Six: Vegas",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Rainbow Six: Vegas 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Realm Royale",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Reflex",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Return to Castle Wolfenstein",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "S.K.I.L.L. - Special Force 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Shadowrun",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "ShootMania Storm",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Special Force",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Splatoon",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Splatoon 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Star Wars Jedi Knight II: Jedi Outcast",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Sudden Attack",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Team Fortress 2",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Uncharted 4: A Thief's End",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Unreal Tournament",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Unreal Tournament (2016)",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Unreal Tournament 2003",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Unreal Tournament 2004",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Unreal Tournament 3",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "VALORANT",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Warface",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Warsow",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Wolfenstein: Enemy Territory",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Xonotic",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Zula",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "jeu": "Arena of Valor",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Battlerite",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Bloodline Champions",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Creative Destruction",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Defense of the Ancients",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Dofus",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Dota 2",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Heavy Metal Machines",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Heroes of Newerth",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Heroes of the Storm",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Hyper Scape",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "League of Legends",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Legend of Glory",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Minecraft",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "MOBA Legends",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Mobile Legends: Bang Bang",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Shards of War",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "SMITE",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Splitgate: Arena Warfare",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Teeworlds",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Vainglory",
+    "genre": "Multiplayer Online Battle Arena"
+  },
+  {
+    "jeu": "Blade & Soul",
+    "genre": "Role-Playing Game"
+  },
+  {
+    "jeu": "Guild Wars 2",
+    "genre": "Role-Playing Game"
+  },
+  {
+    "jeu": "Old School Runescape",
+    "genre": "Role-Playing Game"
+  },
+  {
+    "jeu": "Red Stone",
+    "genre": "Role-Playing Game"
+  },
+  {
+    "jeu": "Stardew Valley",
+    "genre": "Role-Playing Game"
+  },
+  {
+    "jeu": "World of WarCraft",
+    "genre": "Role-Playing Game"
+  },
+  {
+    "jeu": "Acceleration of SUGURI 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Akatsuki Blitzkampf",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Aquapazza: Aquaplus Dream Match",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Arcana Heart 3",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Arcana Heart 3: Love Max Six Stars!!!!!",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Arcana Heart 3: LOVE MAX!!!!!",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "ARMS",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Asuka 120% LimitOver BURNING Fest.",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Attack on Titan Tribute Game",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "BlazBlue: Calamity Trigger",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "BlazBlue: Central Fiction",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "BlazBlue: Chronophantasma",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "BlazBlue: Chronophantasma Extend",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "BlazBlue: Continuum Shift Extend",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "BlazBlue: Continuum Shift II",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "BlazBlue: Cross Tag Battle",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Brawlhalla",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Brawlout",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Breakers Revenge",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Capcom vs. SNK",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Capcom vs. SNK 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Chaos Code: New Sign of Catastrophe",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dead or Alive 4",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dead or Alive 5",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dead or Alive 5 Ultimate",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dead or Alive 5: Last Round",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dead or Alive 6",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dead or Alive Ultimate",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Def Jam: Fight for NY",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dengeki Bunko: Fighting Climax",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dengeki Bunko: Fighting Climax Ignition",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Digimon Rumble Arena",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Divekick",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dragon Ball FighterZ",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Dragon Ball Z: Budokai 3",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Duck Game",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Eternal Fighter Zero",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Fantasy Strike",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Fight of Animals",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Fighter's History Dynamite",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Fighting EX Layer",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Garou: Mark of the Wolves",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear Xrd -REVELATOR-",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear Xrd -SIGN-",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear Xrd REV 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear XX",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear XX #Reload",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear XX Accent Core",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear XX Accent Core Plus",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear XX Accent Core Plus R",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Guilty Gear XX Slash",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Hokuto no Ken",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Hyper Street Fighter II",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "HYPERFIGHT",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Injustice 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Injustice: Gods Among Us",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "JoJo's Bizarre Adventure: Heritage for the Future",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Kill la Kill the Game: IF",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Killer Instinct (2013)",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "King of Fighters 2002 Unlimited Match",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "King of Fighters 98",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "King of Fighters XI",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "King of Fighters XIII",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "King of Fighters XIV",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Kirby Fighters 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Koihime Enbu",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Lethal League Blaze",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Maiden & Spell",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Marvel vs. Capcom 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Marvel vs. Capcom 3",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Marvel vs. Capcom: Infinite",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Melty Blood: Actress Again",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Melty Blood: Actress Again Current Code",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Million Arthur: Arcana Blood",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Mordhau",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Mortal Kombat 11",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Mortal Kombat 9",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Mortal Kombat vs. DC Universe",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Mortal Kombat X",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Mortal Kombat XL",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Mystery Game Tournament",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Naruto Shippuden: Ultimate Ninja Storm 4",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Naruto: Gekitou Ninja Taisen! 4",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Nitroplus Blasterz: Heroines Infinite Duel",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Persona 4 Arena",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Persona 4 Arena Ultimax",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Pocket Rumble",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Pokk<U+00E9>n Tournament",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Pokk<U+00E9>n Tournament DX",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Power Instinct: Matrimelee",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Power Rangers: Battle for the Grid",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Power Rangers: Legacy Wars",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Project Justice",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Project M",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Project Plus",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Punch Planet",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Rising Thunder",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Rivals of Aether",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Roof Rage",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Sailor Moon S",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Samurai Shodown (2019)",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Samurai Shodown III",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Samurai Shodown V Special",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Schwarzerblitz",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Sekiro: Shadows Die Twice",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Shovel Knight Showdown",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Shrek SuperSlam",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Skullgirls",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Skullgirls 2nd Encore",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Skullgirls Encore",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Slap City",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "SLAYERS FOR HIRE",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Smash Remix",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "SNK Heroines: Tag Team Frenzy",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Soul Calibur II",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Soul Calibur II HD Online",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Soul Calibur IV",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Soul Calibur V",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Soul Calibur VI",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Street Fighter Alpha 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Street Fighter Alpha 3",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Street Fighter EX2 Plus",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Street Fighter III: 3rd Strike",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Street Fighter IV",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Street Fighter V",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Street Fighter V: Arcade Edition",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Street Fighter V: Champion Edition",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Street Fighter X Tekken",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Super Smash Bros.",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Super Smash Bros. Brawl",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Super Smash Bros. for Wii U",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Super Smash Bros. Melee",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Super Smash Bros. Ultimate",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Super Street Fighter II Turbo",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Super Street Fighter II Turbo HD Remix",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Super Street Fighter IV",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Super Street Fighter IV Arcade Edition",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Tatsunoko vs. Capcom: Ultimate All-Stars",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Tekken 4",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Tekken 5",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Tekken 5: Dark Resurrection",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Tekken 6",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Tekken 7",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Tekken Tag Tournament",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Tekken Tag Tournament 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "The Last Blade 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Them's Fightin' Herds",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Touhou Hisoutensoku ~ Choudokyuu Ginyoru no Nazo o Oe",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "TowerFall: Ascension",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Ultimate Marvel vs. Capcom 3",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Ultimate Mortal Kombat 3",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Ultra Fight Da! Kyanta 2",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Ultra Street Fighter IV",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Umineko: Golden Fantasia",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Under Night In-Birth EXE: Late",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Under Night In-Birth EXE: Late[st]",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Under Night In-Birth Exe:Late[cl-r]",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Vampire Savior",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Virtua Fighter 4: Evolution",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Virtua Fighter 5",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Virtua Fighter 5 Final Showdown",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "WWE 2K20",
+    "genre": "Fighting Game"
+  },
+  {
+    "jeu": "Asphalt 4",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Asphalt 9: Legends",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Assetto Corsa",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Assetto Corsa Competizione",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Dirt Rally 2.0",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "F1 2018",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "F1 2019",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "F1 2020",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Forza Motorsport 2",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Forza Motorsport 3",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Forza Motorsport 4",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Forza Motorsport 6",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Forza Motorsport 7",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Gran Turismo 3: A-Spec",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Gran Turismo 4",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Gran Turismo Sport",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "GRID (2019)",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "iRacing.com",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "KartRider",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Live for Speed",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Mad Skills Motocross 2",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Mario Kart 8 Deluxe",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "NASCAR Heat 4",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Nascar Heat 5",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "NASCAR Thunder 2002",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "NASCAR Thunder 2003",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Need for Speed Carbon",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Need for Speed: Most Wanted",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Need for Speed: ProStreet",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Need for Speed: Shift",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Need for Speed: Underground",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Need for Speed: Underground 2",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Project Cars",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Project Cars 2",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Project Gotham Racing 2",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Project Gotham Racing 3",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Project Gotham Racing 4",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "RaceRoom Racing Experience",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "rFactor",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "rFactor 2",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Speedrunners",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Trackmania (2020)",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "TrackMania 2: Canyon",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "TrackMania 2: Stadium",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Trackmania 2: Valley",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "TrackMania Nations",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "TrackMania Nations Forever",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Trackmania Turbo",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Trackmania United",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Trackmania United Forever",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Trials Fusion",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Turbo Racing League",
+    "genre": "Racing"
+  },
+  {
+    "jeu": "Carom 3D",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Dream league Soccer",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 03",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 04",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 05",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 06",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 07",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 08",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 09",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 10",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 11",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 12",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 13",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 14",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 15",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 16",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 17",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 18",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 19",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 20",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 2000",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 2001",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 2002 World Cup",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA 21",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA Online 3",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "FIFA Online 4",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Guitar Hero 5",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Guitar Hero III: Legends of Rock",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Guitar Hero: World Tour",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Just Dance 2014",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 19",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 2004",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 2006",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 2007",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 2008",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 2009",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 2013",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 2016",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 2017",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Madden NFL 2018",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Mario Tennis Aces",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NBA 2K Online",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NBA 2K18",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NBA 2K19",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NHL '94",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NHL 12",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NHL 13",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NHL 14",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NHL 15",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NHL 17",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NHL 18",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "NHL 19",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 2008",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 2009",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 2013",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 2014",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 2015",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 2016",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 2017",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 2018",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 2019",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 3",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 4",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 5",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Pro Evolution Soccer 6",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Rocket League",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Soccer Stars",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Zwift",
+    "genre": "Sports"
+  },
+  {
+    "jeu": "Artifact Classic",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Artifact Foundry",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Faeria",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Gwent",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Hand of the Gods",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Hearthstone",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Hearthstone Battlegrounds",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "KARDS, The World War II Card Game",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Legends of Runeterra",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Magic: The Gathering Arena",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Magic: The Gathering Online",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Mythgard",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Pok<U+00E9>mon TCG",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Shadowverse",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Shardbound",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "The Elder Scrolls: Legends",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Yu-Gi-Oh! Duel Links",
+    "genre": "Collectible Card Game"
+  },
+  {
+    "jeu": "Catherine",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Catherine: Full Body",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Cultris II",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Jstris",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Magical Drop III",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Pac-man",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Panel Attack",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Puyo Puyo Champions",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Puyo Puyo Tetris",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Tetr.io",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Tetris",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Tetris Ultimate",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Twinkle Star Sprites",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Wise Star 2",
+    "genre": "Puzzle Game"
+  },
+  {
+    "jeu": "Apex Legends",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Ark: Survival Of The Fittest",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Fall Guys",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Fortnite",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Free Fire",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "H1Z1",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "PLAYERUNKNOWN'S BATTLEGROUNDS Mobile",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "PLAYERUNKNOWN�S BATTLEGROUNDS",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Radical Heights",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Ring of Elysium",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Rocket Arena",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Rules Of Survival",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Spellbreak",
+    "genre": "Battle Royale"
+  },
+  {
+    "jeu": "Gears 5",
+    "genre": "Third-Person Shooter"
+  },
+  {
+    "jeu": "Gears of War",
+    "genre": "Third-Person Shooter"
+  },
+  {
+    "jeu": "Gears of War 2",
+    "genre": "Third-Person Shooter"
+  },
+  {
+    "jeu": "Gears of War 3",
+    "genre": "Third-Person Shooter"
+  },
+  {
+    "jeu": "Gears of War 4",
+    "genre": "Third-Person Shooter"
+  },
+  {
+    "jeu": "Gears of War: Ultimate Edition",
+    "genre": "Third-Person Shooter"
+  },
+  {
+    "jeu": "Rogue Company",
+    "genre": "Third-Person Shooter"
+  },
+  {
+    "jeu": "The Division 2",
+    "genre": "Third-Person Shooter"
+  }
+]
