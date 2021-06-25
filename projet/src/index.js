@@ -134,13 +134,13 @@ var formatter = new Intl.NumberFormat('en-US', {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     if (mapMode === "earnings") {
-        this._div.innerHTML = '<h4>Total Earnings</h4>' + (props ?
-            '<b>' + props.ADMIN + '</b><br />' + (props.earnings ? formatter.format(props.earnings) + ' earned total' : 'No data available') :
-            'Hover over a country');
+        this._div.innerHTML = '<h4>Gains</h4>' + (props ?
+            '<b>' + props.ADMIN + '</b><br />' + (props.earnings ? formatter.format(props.earnings) + ' gains total' : 'Aucune donnée') :
+            'Survoler un pays!');
     } else if (mapMode === "avgEarnings") {
-        this._div.innerHTML = '<h4>Earnings per Capita</h4>' +  (props ?
-            '<b>' + props.ADMIN + '</b><br />' + (props.avgEarnings ? formatter.format(props.avgEarnings) + ' per capita' : 'No data available')
-            : 'Hover over a country');
+        this._div.innerHTML = '<h4>Gains par habitant</h4>' +  (props ?
+            '<b>' + props.ADMIN + '</b><br />' + (props.avgEarnings ? formatter.format(props.avgEarnings) + ' gains par habitant' : 'Aucune donnée')
+            : 'Survoler un pays!');
     }
 
 };
