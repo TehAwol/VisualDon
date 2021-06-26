@@ -84,7 +84,7 @@ earnings.forEach(function(d) {
   function recupAnne (Anne)
   {
     return earnings.filter(d=>d.Annee === Anne && d.Earnings >= 1000).sort((a, b) => a.Earnings > b.Earnings ? -1 : 1)
-    .filter((d,i)=> i < 6);
+    .filter((d,i)=> i < 5);
   }
 
 
@@ -116,7 +116,7 @@ gainAnne.push({Earnings: total, Annee: element });
 
 
   //top 5 cashprize jeux par annee 
- fs.writeFileSync("JeuxParAnne",JSON.stringify(resultat,null,5), "utf-8")
+ fs.writeFileSync("JeuxParAnne",JSON.stringify(resultat,null,4), "utf-8")
 
  //tot par annee
  //const filterAnne= gainAnne.sort((a, b) => a.Anne > b.Anne ? 1 : -1);
