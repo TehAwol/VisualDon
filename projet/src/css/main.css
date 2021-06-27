@@ -14,6 +14,11 @@ h4 {
   font-weight: bold;
 }
 
+h5 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
 }
@@ -71,6 +76,10 @@ h1 {
 
 .text-body {
   margin-bottom: 1rem;
+}
+
+.mikkel-text-2 {
+  margin-top: 1rem;
 }
 
 .slide-container {

@@ -14,16 +14,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./main.css">
-  <title>Dataviz Esports</title>
+  <title>L'évolution de l'industrie des esports</title>
 </head>
 
 <body>
   <div class="row title-container">
     <div class="col">
       <h1 id="title" class="d-flex justify-content-center">L'évolution de l'industrie des esports</h1>
+      <h5 id="authors" class="d-flex justify-content-center">par Martin Mertenat & Mikkel Vestergaard</h5>
     </div>
   </div>
   <div class="container wrapper">
+    <div class="row intro-text text-body">
+      <h4>Les esports, une industrie ?</h4>
+      <p>Vancouver, Canada 2018, Johan “NoTail” Sundstein, capitaine de son équipe OG, vient de remporter The International, le championnat du monde de DOTA 2. En l’espace de 5 heures, son équipe s’impose en première place et gagne le prix de $11 millions. Pour NoTail c’est un rêve devenu réalité. 2 ans auparavant ce dernier travaillait dans un fast-food et pensait abandonner le jeu, aujourd’hui il gère une organisation esports internationale en partenariat avec RedBull. L’histoire de NoTail est loin d’être unique.</p>
+      <p>Depuis quelques années maintenant, le phénomène d’esport est en pleine expansion. L’époque des petites LAN locales est révolue, aujourd’hui nous parlons d’arènes remplies de milliers de spectateurs avec des équipes professionnelles qui font des jeux leurs métiers.
+        Afin de mieux comprendre comment cette industrie a évolué et s'est répandue, nous vous proposons quelques graphiques sur les gains (cashprizes) dans l’esport!
+        </p>
+    </div>
     <div class="row martin-text text-body">
       <h4>L'évolution des gains esports par annee</h4>
       <p>Comme le montre le graphique ci-dessous l’industrie du sport électronique connait une énorme expansion en termes de dollars de prix distribués dès les années 2010. En cause, la popularisation des jeux et l’arrivé des jeux multijoueurs, conçus pour la compétition comme StarCraft2, DOTA2 ou encore League of Legends. la généralisation du streaming et l’investissement de grandes entreprises dans le domaine des jeux vidéos qui était à l'époque considéré comme un marché de niche à aussi grandement contribué à cette forte expansion</p>
@@ -69,7 +77,6 @@
         <h4>La globalisation des esports</h4>
         <p>Les organisations esports opèrent d’une manière très similaire à celle des équipes sportives classiques. Elles sont basées dans un pays / ville spécifique et gèrent plusieurs équipes 
           souvent composées de joueurs de différentes nationalités. Les équipes verrouillées par pays pour les tournois de style coupe du monde sont rares mais existent. Ceci n’empêche pas certaines organisations d’uniquement recruter des joueurs d'un seul pays ou d'une seule région, comme c’est souvent le cas en Europe de l’Est, Scandinavie ou encore l’Amérique du Nord.</p>
-          <p>En conséquence de la diversité des équipes mentionnées ci-dessus, nous avons de représenter les gains d’une façon semblable au PIB. Les données utilisées sont les gains totaux par nationalité des 100 joueurs ayant fait le plus de gains. Pour accorder un poids nous avons finalement fait les gains par population, un filtrage qui permet d’identifier les pays pionniers de l’esport.</p>
       </div>
       <div class="d-flex justify-content-center">
         <button id="btn-earnings" class="button p-2">Gains</button>
@@ -78,6 +85,10 @@
       <div class="row leaflet-container">
         <div class="map" id="map"></div>
       </div>
+      <div class="row mikkel-text-2 text-body">
+        <p>Pour visualiser la globalisation de l’industrie, nous avons pris les gains des 100 joueurs ayant le plus de gains dans l’histoire de nos données filtrées par nationalité. L’Amérique du Nord, l’Europe et l’Asie constituent le marché principal des jeux vidéo et en conséquence produit un plus grande quantité de joueurs professionnels.</p>
+        <p>En filtrant les gains par habitant (pensez PIB), nous remarquons que la Scandinavie se place en haut des tableaux. Le Danemark, la Suède, Finlande et l’Estonie sont des pays qui depuis plusieurs années investissent dans cette industrie. Des pays pionniers dans le digitale, l'esport jouit d’une perception publique très favorable et est souvent diffusé à la télévision nationale où il est presque reconnu comme un sport. Ceci contribue à la forte représentation de cette région dans le top 100 des gains dû à la quantité de joueurs qu'elle produit.</p>
+    </div>
 
       <hr>
 
