@@ -1,8 +1,8 @@
-# Projet
+# Projet - https://vestermikk.github.io/
 
-## 23 Avril
+## Introduction 
 
-Avec Martin Mertenat, nous allons travailler sur le dataset suivant : https://www.kaggle.com/rankirsh/esports-earnings. Nous cherchons également des données plus granulaires sur les gains dans l'esports. 
+Projet VisualDon de Martin Mertenant et Mikkel Vestergaard. Nous avons choisi d'explorer les gains dans l'esports, comme ces derniers on évolués et comment cette industrie se globalise.
 
 # Données
 
